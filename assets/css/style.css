@@ -9,9 +9,18 @@
     border-radius:5px;
 }
 
+.gif-container{
+    float: left;
+    margin:5px;
+}
+
 #subject-box{
     width:50%;
     margin-bottom:10px;
-    border-radius:5px;
+    border-radius:2px;
+}
+
+#gifs-main{
+    border:1pt solid black;
 }
 
