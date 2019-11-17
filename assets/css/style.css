@@ -1,12 +1,28 @@
+body{
+    background-image: url("../images/dark-paths.png");
+    
+}
+
 .topic{
     margin:10px;
 }
 
 .search-container{
-    border:1pt solid black;
+    border-left:1pt solid black;
+    border-top:1pt solid black;
     padding-bottom:5px;
     padding-top:5px;
-    border-radius:5px;
+    border-top-left-radius: 5px;
+    background-image: url("../images/concrete_seamless.png");
+}
+
+.radio-container{
+    border-right:1pt solid black;
+    border-top:1pt solid black;
+    padding-bottom:5px;
+    padding-top:20px;
+    border-top-right-radius: 5px;
+    background-image: url("../images/concrete_seamless.png");
 }
 
 .gif-container{
@@ -15,12 +31,19 @@
 }
 
 #subject-box{
-    width:50%;
+    width:100%;
     margin-bottom:10px;
     border-radius:2px;
 }
 
 #gifs-main{
     border:1pt solid black;
+    border-radius:5px;
+    background-image: url("../images/concrete_seamless.png");
 }
 
+#buttons-main{
+    background-image: url("../images/concrete_seamless.png");
+    border-right:1pt solid black;
+    border-left:1pt solid black;
+}

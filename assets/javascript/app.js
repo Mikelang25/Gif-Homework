@@ -18,9 +18,14 @@ function createButtons(){
 
 }
     $("#btn-create").on("click", function() {
-        var a =$("#subject-box").val().trim();
-        topics.push(a);
-        createButtons();
+        if($("#subject-box").val()===""){
+            //does nothing if the user has not inputted a value
+        }else{
+            var a =$("#subject-box").val().trim();
+            topics.push(a);
+            createButtons();
+            $("#subject-box").val("");
+        }
     });
 
     function locateGifs() {
@@ -42,6 +47,7 @@ function createButtons(){
                gifImage.attr("src",results[j].images.fixed_height_still.url);
                gifImage.attr("gif-still",results[j].images.fixed_height_still.url);
                gifImage.attr("gif-animate",results[j].images.fixed_height.url);
+               gifImage.attr("state","still");
                var t = $("<p>");
                t.text(results[j].title);
                var r = $("<p>");
@@ -55,6 +61,18 @@ function createButtons(){
 
     }
 
+    function alterGifs(){
+        var state = $(this).attr("state");
+        if (state === "still") {
+          $(this).attr("src", $(this).attr("gif-animate"));
+          $(this).attr("state", "animate");
+        } else {
+          $(this).attr("src", $(this).attr("gif-still"));
+          $(this).attr("state", "still");
+        }
+    }
+
     $(document).on("click", ".topic", locateGifs);
+    $(document).on("click", ".gif", alterGifs);
 
 });
