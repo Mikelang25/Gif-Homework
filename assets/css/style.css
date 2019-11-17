@@ -1,0 +1,17 @@
+.topic{
+    margin:10px;
+}
+
+.search-container{
+    border:1pt solid black;
+    padding-bottom:5px;
+    padding-top:5px;
+    border-radius:5px;
+}
+
+#subject-box{
+    width:50%;
+    margin-bottom:10px;
+    border-radius:5px;
+}
+
