@@ -8,8 +8,8 @@ body{
 }
 
 .search-container{
-    border-left:1pt solid black;
-    border-top:1pt solid black;
+    border-left:2pt solid grey;
+    border-top:2pt solid grey;
     padding-bottom:5px;
     padding-top:5px;
     border-top-left-radius: 5px;
@@ -17,8 +17,8 @@ body{
 }
 
 .radio-container{
-    border-right:1pt solid black;
-    border-top:1pt solid black;
+    border-right:2pt solid grey;
+    border-top:2pt solid grey;
     padding-bottom:5px;
     padding-top:20px;
     border-top-right-radius: 5px;
@@ -37,13 +37,17 @@ body{
 }
 
 #gifs-main{
-    border:1pt solid black;
-    border-radius:5px;
+    padding-top:15px;
+    border-right:2pt solid grey;
+    border-left:2pt solid grey;
+    border-bottom:2pt solid grey;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
     background-image: url("../images/concrete_seamless.png");
 }
 
 #buttons-main{
     background-image: url("../images/concrete_seamless.png");
-    border-right:1pt solid black;
-    border-left:1pt solid black;
+    border-right:2pt solid grey;
+    border-left:2pt solid grey;
 }
