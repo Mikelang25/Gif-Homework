@@ -72,12 +72,17 @@ function createButtons(){
                 method: "GET"
             }) .then(function(response) {
                 console.log(response);
-                var results = response.data;
-
-                   
-                
-                $("#gifs-main").prepend();
-                
+                var movieDiv = $("<div>")
+                var movieImage = $("<img>");
+                movieImage.attr("src",response.Poster);
+                var mt = $("<p>");
+                mt.text(response.Title);
+                var mr = $("<p>");
+                mr.text(response.Rated);
+                movieDiv.append(movieImage);
+                movieDiv.append(mt);
+                movieDiv.append(mr);
+                $("#gifs-main").prepend(movieDiv);
             });
         }
 
