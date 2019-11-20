@@ -3,6 +3,8 @@ var topics =["Yankees","Golden Retrievers","Chelsea Soccer","Golf"];
 
 $(document).ready(function() {
 
+$("#gif").prop("checked",true);
+
 createButtons();
 
 function createButtons(){

@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Pathway+Gothic+One&display=swap" rel="stylesheet">
+
+
 
 </head>
 <body>
 <div class="row">   
-    <div class="col-md-12 text-center">Giph Mania</div>
+    <div class="col-md-12 text-center header-main">Giph Mania</div>
 </div>
 <div class="row">   
         <div class="col-md-3"></div>
@@ -23,22 +26,19 @@
             <input type="text" id="subject-box"><br> 
             <button type="button" id="btn-create" class="btn btn-danger">Submit</button>      
         </div>
-        <div class="col-md-2 radio-container">
-            <br>
-            <input class = "radio" type="radio" name="search" value="gif"> Gif
-            <input class = "radio" type="radio" name="search" value="movie"> Movie
+        <div class="col-md-3 radio-container">
+            <p class="lbl-gif" ><input id="gif" class = "radio" type="radio" name="search" value="gif"> Gif</p>
+            <p class="lbl-movie"><input id="movie" class = "radio" type="radio" name="search" value="movie"> Movie</p>
         </div>
 </div>
 <div class="row">   
     <div class="col-md-3"></div>
-    <div class="col-md-5 text-center" id="buttons-main"></div>
+    <div class="col-md-6 text-center" id="buttons-main"></div>
 </div>
 <div class="row">   
         <div class="col-md-3"></div>
-        <div class="col-md-5 text-center" id="gifs-main"></div>
+        <div class="col-md-6 text-center" id="gifs-main"></div>
 </div>
-
-<footer class="footer"></footer>
 
 </body>
 

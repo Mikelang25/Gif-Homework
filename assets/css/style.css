@@ -3,11 +3,22 @@ body{
     
 }
 
+.header-main{
+    background-image: url("../images/concrete_seamless.png");
+    margin-bottom:25px;
+    font-family: 'Bebas Neue', cursive;
+    font-size:48pt;
+    border-bottom:2pt solid grey;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+    color:black;
+}
+
 .topic{
     margin:10px;
     border-radius:5px;
     background-color:black;
     color:rgb(252, 197, 197);
+    font-family: 'Pathway Gothic One', sans-serif;
 }
 
 .search-area{
@@ -20,6 +31,17 @@ body{
 
 .footer{
     height:50px;
+}
+
+.lbl-gif, .lbl-movie, .lbl-subject{
+    font-weight:bold;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size:24pt;
+}
+
+.lbl-gif, .lbl-movie{
+    margin-left:30px;
+    margin-top:10px;
 }
 
 .search-container{
