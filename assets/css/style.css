@@ -67,6 +67,15 @@ body{
     margin:5px;
 }
 
+.main-directions{
+    border:2pt solid grey;
+    border-radius:5px;
+    margin-top:10px;
+    background-image: url("../images/concrete_seamless.png");
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size:24pt;
+}
+
 #subject-box{
     width:100%;
     margin-bottom:10px;
@@ -74,12 +83,10 @@ body{
 }
 
 #gifs-main{
+    margin-top: 10px;
     padding-top:15px;
-    border-right:2pt solid grey;
-    border-left:2pt solid grey;
-    border-bottom:2pt solid grey;
-    border-bottom-right-radius:5px;
-    border-bottom-left-radius:5px;
+    border:2pt solid grey;
+    border-radius: 5px;
     background-image: url("../images/concrete_seamless.png");
     font-weight: bold;
 }
@@ -88,4 +95,7 @@ body{
     background-image: url("../images/concrete_seamless.png");
     border-right:2pt solid grey;
     border-left:2pt solid grey;
+    border-bottom:2pt solid grey;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
 }
